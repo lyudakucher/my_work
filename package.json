@@ -1,0 +1,11 @@
+{
+  "name": "my_work",
+  "version": "1.0.0",
+  "description": "Lyuda's project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
