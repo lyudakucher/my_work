@@ -20,7 +20,7 @@ gulp.task('watch',
     ]
 );
 
-gulp.task('watch', ['browserSync', 'sass:watch', 'nunjucks:watch', 'imagemin:watch', 'copy:watch'], function (){
+gulp.task('watch', ['browserSync', 'scss:watch', 'nunjucks:watch', 'imagemin:watch', 'copy:watch'], function (){
     gulp.watch('build/css/*.css', browserSync.reload);
     gulp.watch('build/*.html', browserSync.reload);
     gulp.watch('build/img/*', browserSync.reload);

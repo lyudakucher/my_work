@@ -1,0 +1,10 @@
+{% macro CategoryList(item) %}
+<div class="thumbnail">
+    <a href="{{ item.link }}">
+        <img src="{{ item.img }}" alt="{{ item.name }}">
+        <div class="caption">
+            <h3>{{ item.name }}</h3>
+        </div>
+    </a>
+</div>
+{% endmacro %}
