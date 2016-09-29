@@ -1,0 +1,14 @@
+body {
+  font-family:'Roboto';
+  padding: 0;
+  margin: 0;
+  background-color: #ebeef6;
+}
+
+.container__category {
+  width:calc(100% - 4px);
+  padding:0 2px;
+  margin: 0 auto;
+  max-width:1284px;
+  text-align: center;
+}

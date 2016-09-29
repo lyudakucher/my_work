@@ -1,0 +1,30 @@
+#category {
+  text-align: center;
+}
+.category__title {
+  color: #474d58;
+  font-size: 34px;
+  font-weight: 700;
+  padding-top: 34px;
+}
+.category__list {
+  margin:auto;
+}
+.category__list__item {
+  width:277px;
+  height:277px;
+  background-color: white;
+  border: 1px solid #d9dde5;
+  border-radius: 5px;
+  margin:25px;
+  text-align: center;
+  padding:23px;
+  img {
+    margin-bottom: 40px;
+  }
+  h3 {
+    color: #383e49;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}

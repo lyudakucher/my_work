@@ -1,0 +1,21 @@
+header {
+  background-color: #383e49;
+  text-align: center;
+}
+
+.header__title {
+  color: white;
+  font-size: 34px;
+  font-weight: 700;
+  padding: 25px 0 25px 58px;
+  vertical-align: middle;
+}
+.header__title span{
+  display: inline-block;
+  width: 35px;
+  height: 40px;
+  margin-right:10px;
+  background: url(../img/book.png) center center no-repeat;
+  background-size:contain;
+  vertical-align: middle;
+}

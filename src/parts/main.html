@@ -1,10 +1,12 @@
 {% from "parts/data.html" import categories %}
 {% from "parts/macro.html" import CategoryList %}
-
-<div class="row">
-    <div class="col-sm-6 col-md-4">
-        {% for category in categories %}
-        {{ CategoryList(advantage) }}
-        {% endfor %}
+<section id="category">
+    <div class="container__category">
+        <h2 class="category__title">Виберіть категорію</h2>
+        <div class="category__list row">
+            {% for category in categories %}
+            {{ CategoryList(category) }}
+            {% endfor %}
+        </div>
     </div>
-</div>
+</section>
